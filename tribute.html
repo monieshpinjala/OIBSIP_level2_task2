@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".btn").click(function(){
+                $(".quote").show(".quote");
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="img-container">
+            <img src="robert.jpeg" alt="Robert Downey Jr." />
+        </div>
+        <div class="info-container">
+            <h1>Robert Downey Jr.</h1>
+            <marquee><h3>The marvelous Marvel icon</h3></marquee>
+            <p>Robert Downey Jr., the legendary actor known for his iconic portrayal of Tony Stark in the Marvel Cinematic Universe.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="timeline" id="life-info">
+            <h2>Timeline of Robert Downey Jr.'s Life</h2>
+            <ul>
+                <li><strong>1965</strong>: Born on April 4th in Manhattan, New York City, USA.</li>
+                <li><strong>1985</strong>: Makes his acting debut in the film "Pound".</li>
+                <li><strong>1987</strong>: Gains attention for his role in "Less Than Zero".</li>
+                <li><strong>1992</strong>: Nominated for an Academy Award for "Chaplin".</li>
+                <li><strong>2008</strong>: Portrays Tony Stark/Iron Man, kickstarting the Marvel Cinematic Universe.</li>
+                <li><strong>2012</strong>: Appears in "The Avengers", which becomes one of the highest-grossing films of all time.</li>
+                <li><strong>2019</strong>: Concludes his role as Iron Man in "Avengers: Endgame".</li>
+            </ul>
+        </section>
+        <section class="timeline-pic">
+            <img src="ironman.jpg" alt="Iron Man Picture">
+        </section>
+        <section class="famous-role">
+            <h2>Famous Role</h2>
+            <p>Robert Downey Jr. is best known for his iconic portrayal of Tony Stark, also known as Iron Man, in the Marvel Cinematic Universe. His marvelous performance brought the beloved comic book character to life and made Iron Man one of the most iconic superheroes of all time.</p>
+        </section>
+        <center><button class="btn">Click Here To Show Quote</button></center>
+        <section class="quote">
+            <blockquote>
+                <p class="quote-text">"I think that we all do heroic things, but hero is not a noun, it's a verb."</p>
+                <p class="said-by">-- Robert Downey Jr.</p>
+            </blockquote>
+        </section>
+    </main>
+    <footer class="footer">
+        <p> <a href="https://en.wikipedia.org/wiki/Robert_Downey_Jr." target="_blank" class="wiki-link">Know more about Robert Downey Jr.</a></p>
+    </footer>
+</body>
+
+</html>
